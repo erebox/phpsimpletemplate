@@ -1,6 +1,6 @@
 <?php
 require_once __DIR__ . '/../vendor/autoload.php';
-use Erebox\PhpSimpleTemplate\Template;
+use Erebox\SimpleTemplate\Template;
 
 $tpl_name = __DIR__."/home.tpl.html";
 $tpl = new Template($tpl_name);

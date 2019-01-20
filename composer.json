@@ -1,5 +1,5 @@
 {
-    "name": "erebox/phpsimpletemplate",
+    "name": "erebox/simple-template",
     "description": "PHP Simple Template Engine",
     "type": "library",
     "license": "MIT",
@@ -16,6 +16,6 @@
         "php": "^7"
     },
     "autoload": {
-        "psr-4": { "Erebox\\PhpSimpleTemplate\\": "src/" }
+        "psr-4": { "Erebox\\SimpleTemplate\\": "src/" }
     }
 }

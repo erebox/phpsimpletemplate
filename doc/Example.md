@@ -7,7 +7,7 @@ This is the basic code to use the template.
 ```php
 <?php
 
-use Erebox\PhpSimpleTemplate\Template;
+use Erebox\SimpleTemplate\Template;
 
 $mypage = new Template('home.tpl.html');
 $mytag = [

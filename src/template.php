@@ -1,6 +1,6 @@
 <?php
 
-namespace Erebox\PhpSimpleTemplate;
+namespace Erebox\SimpleTemplate;
 
 class Template
 {
