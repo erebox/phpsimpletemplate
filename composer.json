@@ -1,0 +1,21 @@
+{
+    "name": "erebox/phpsimpletemplate",
+    "description": "PHP Simple Template Engine",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["Template", "Engine"],
+    "homepage": "https://github.com/erebox/text-adventure-engine",    
+    "authors": [
+        {
+            "name": "Erebox",
+            "email": "erebox@gmail.com",
+            "homepage": "https://github.com/erebox"
+        }
+    ],
+    "require": {
+        "php": "^7"
+    },
+    "autoload": {
+        "psr-4": { "Erebox\\PhpSimpleTemplate\\": "src/" }
+    }
+}
