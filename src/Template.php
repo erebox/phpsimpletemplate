@@ -9,11 +9,11 @@ class Template
     private $content;
     private $filename;
 
-    /* *****************************************************
+    /* ******************************************************
      *  P U B L I C  methods
-     * *****************************************************/
-
-     public function __construct($tplFile) {
+    ** *****************************************************/
+    
+    public function __construct($tplFile) {
         $this->filename = $tplFile;
         $this->content = $this->load($this->filename);
         if(!$this->content) {
@@ -33,9 +33,9 @@ class Template
         echo $this->content;
     }
 
-    /* *****************************************************
+    /* ******************************************************
      *  P R I V A T E  methods
-     * *****************************************************/
+    ** *****************************************************/
 
     private function load($file) {
         if(file_exists($file)) {
