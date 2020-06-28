@@ -4,7 +4,6 @@ namespace Erebox\SimpleTemplate;
 
 class Template
 {
-    private $imports = [];
     private $tags = [];
     private $content;
     private $filename;
@@ -89,9 +88,6 @@ class Template
             }
             $render .= $curr_render;
         }
-        #echo "<pre>".print_r($ini_par.$tpl.$end_par, 1)."</pre><hr/>\n";
-        #echo "<pre>".print_r($tpl_all, 1)."</pre><hr/>\n";
-        #echo "<pre>".print_r($render, 1)."</pre><hr/>\n";
         return [$tpl_all, $render];
     }
 
